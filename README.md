@@ -1,8 +1,3 @@
-# System-Monitoring
-Absolutely! Here’s your personalized, step-by-step README written as if you carried out each task yourself:
-
----
-
 # 🛠️ System Monitoring and Log Management  
 **Project 2: Step-by-Step Execution**
 
@@ -12,6 +7,8 @@ To learn how to monitor system performance and manage logs on a Linux system thr
 ---
 
 ## ✅ Step-by-Step Implementation
+![Screenshot (295)](https://github.com/user-attachments/assets/cd31aaa4-a894-4860-a427-f258f5fa036d)
+![Screenshot (296)](https://github.com/user-attachments/assets/39cc4e03-0b36-43eb-bf82-597974b363f3)
 
 ### 1. **Monitoring System Performance with `htop`**
 
@@ -30,6 +27,9 @@ htop
 This gave me a colorful, interactive view of processes, CPU usage per core, memory utilization, and more—helpful for understanding what's consuming system resources.
 
 ---
+![Screenshot (297)](https://github.com/user-attachments/assets/c69aba20-8531-4ba7-aaa5-998c789efdd5)
+
+![Screenshot (298)](https://github.com/user-attachments/assets/3c242f7d-fda2-4ed6-906e-3699d317f487)
 
 ### 2. **Checking Disk Usage with `df` and `du`**
 
@@ -48,6 +48,7 @@ To keep an eye on how much disk space is used and where, I used two commands:
 These commands helped me identify which partitions or directories were consuming the most space.
 
 ---
+![Screenshot (299)](https://github.com/user-attachments/assets/819c4a2a-0420-4059-9c9b-9f2d1047b18a)
 
 ### 3. **Setting Up Log Rotation for Custom Logs**
 
@@ -74,6 +75,7 @@ Then I added the following configuration:
 This setup rotates the log daily, keeps 7 compressed backups, and ensures empty logs are skipped. It also maintains the appropriate file permissions and ownership.
 
 ---
+![Screenshot (300)](https://github.com/user-attachments/assets/e890ff52-ddf2-4d21-8f0d-0d859b1642ac)
 
 ### 4. **Analyzing Logs with `grep`**
 
@@ -86,6 +88,9 @@ grep "error" /var/log/syslog
 This helped me quickly identify and troubleshoot errors in the system.
 
 ---
+![Screenshot (301)](https://github.com/user-attachments/assets/a2c58946-8612-4913-9462-093f40ea58aa)
+![Screenshot (302)](https://github.com/user-attachments/assets/338cb2df-9d2d-40b5-8ea3-52d995b41968)
+![Screenshot (303)](https://github.com/user-attachments/assets/7e4c8223-4393-432c-a9e8-888a6fc29565)
 
 ### 5. **Setting Up Disk Usage Alerts with `cron` and `mail`**
 
